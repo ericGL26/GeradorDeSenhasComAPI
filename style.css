@@ -1,0 +1,81 @@
+body {
+ background-color: #Caedf7;
+ font-family: 'Roboto', sans-serif;
+}
+
+.titulo {
+    margin-left: 20px;
+    color: rgb(23, 187, 23);
+}
+
+.sidebar_superior {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.info_sidebar {
+    margin-left: 150px;
+}
+
+.conteiner_central {
+    display: flex;
+    height: 714px;
+    width: 100%;
+    background-color: #Caedf7;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div_resposta {
+    display: flex;
+    height: 150px;
+    width: 600px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.div_personalize_senha {
+    display: flex;
+    height: 300px;
+    width: 440px;
+    background-color: white;
+    margin-right: 160px;
+    flex-direction: column;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.input_numerodecaracteressenha {
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(178, 255, 255);
+}
+
+.titulo_perso_senha {
+    display: flex;
+    margin-left: 20px;
+}
+
+.butao_enviar_dado_senha {
+    height: 30px;
+    width: 70px;
+    background-color: red;
+    border-radius: 30px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}

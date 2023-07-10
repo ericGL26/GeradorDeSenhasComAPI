@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Gerador De Senhas</title>
+</head>
+<body>
+    <div class="sidebar_superior">
+        <h1 class="titulo">NewºPassword</h1>
+        <h3 class="info_sidebar">Segurança</h3>
+        <h3 class="info_sidebar">Redes Sociais</h3>
+        <h3 class="info_sidebar">Sobre</h3>
+        <h3 class="info_sidebar">Suporte</h3>
+        <h3 class="info_sidebar">Mais</h3>
+    </div>
+
+    <div class="conteiner_central">
+
+        <div id="divresposta" class="div_resposta">
+            <h1 id="printar_senha" class="senha_bruta">Carregando...</h1>
+        </div>
+
+        <div class="div_personalize_senha">
+            <h1 class="titulo_perso_senha">Personalize Sua Senha</h1>
+
+            <h3 class="titulo_perso_senha">Numero de caracteres da senha</h3>
+            <input id="input_tamanho_senha" class="input_numerodecaracteressenha" type="number"/>
+            <button id="butao_enviar_dados" onclick="butaochamado()" class="butao_enviar_dado_senha">Enviar</button>
+        </div>
+
+    </div>
+</body>
+</html>
